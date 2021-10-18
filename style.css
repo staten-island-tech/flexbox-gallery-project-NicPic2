@@ -42,3 +42,16 @@ body,
 .sub-header {
   background-color: black;
 }
+.post-1:hover {
+  transform: scale(1.15);
+}
+.header:hover {
+  transform: scale(1.05);
+}
+.header {
+  transition: all 0.2s ease-in;
+}
+.row-1-img:hover {
+  transform: scale(1/1);
+  outline: 0.5rem solid lightyellow;
+}
