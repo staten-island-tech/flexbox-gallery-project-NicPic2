@@ -150,4 +150,59 @@ body,
     color: red;
     font-size: 14rem;
   }
+  .post-1,
+  .post-2,
+  .post-3,
+  .post-4,
+  .post-5,
+  .post-6,
+  .post-7,
+  .post-8,
+  .post-9 {
+    height: 25rem;
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .row-1-img {
+    height: 12vw;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  .post-1,
+  .post-2,
+  .post-3,
+  .post-4,
+  .post-5,
+  .post-6,
+  .post-7,
+  .post-8,
+  .post-9 {
+    height: 20rem;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 572px) {
+  h2 {
+    font-size: 1.1rem;
+  }
+  .post-1,
+  .post-2,
+  .post-3,
+  .post-4,
+  .post-5,
+  .post-6,
+  .post-7,
+  .post-8,
+  .post-9 {
+    height: 12rem;
+    width: 12rem;
+    margin-left: auto;
+    margin-right: auto;
 }
