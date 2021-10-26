@@ -169,26 +169,40 @@ body,
   }
 }
 
-@media (max-width: 768px) {
-  h2 {
-    font-size: 1.5rem;
-  }
-  .post-1,
-  .post-2,
-  .post-3,
-  .post-4,
-  .post-5,
-  .post-6,
-  .post-7,
-  .post-8,
-  .post-9 {
-    height: 20rem;
-    width: 20rem;
+@media (max-width: 810px) {
+  .header {
+    height: 10rem;
     margin-left: auto;
     margin-right: auto;
+    color: blue;
+    font-size: 10rem;
+    h2 {
+      font-size: 1.5rem;
+    }
+    .post-1,
+    .post-2,
+    .post-3,
+    .post-4,
+    .post-5,
+    .post-6,
+    .post-7,
+    .post-8,
+    .post-9 {
+      height: 15rem;
+      width: 15rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
-
 @media (max-width: 572px) {
+  .header {
+    height: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: violet;
+    font-size: 4rem;
+  }
   h2 {
     font-size: 1.1rem;
   }
@@ -205,4 +219,5 @@ body,
     width: 12rem;
     margin-left: auto;
     margin-right: auto;
+  }
 }
